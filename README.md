@@ -1,2 +1,5 @@
 # timer
-A simple timer without dependency
+A simple timer without dependency  
+
+## platform
+linux
