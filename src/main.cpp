@@ -17,6 +17,7 @@ int main()
     timer.PrintEvent();
     while (1)
     {
+        Clock::Time();
         sleep(1);
     }
     timer.Stop();
