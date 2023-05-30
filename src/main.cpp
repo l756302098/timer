@@ -6,6 +6,16 @@
 
 int main()
 {
+    long int T = 1685419684;
+    std::string ans = Clock::unixTimeToHumanReadable(T);
+
+    // Print time in format
+    // DD:MM:YYYY HH:MM:SS
+    std::cout << ans << "\n";
+
+    long timestamp = Clock::toTimestamp(ans);
+    std::cout << "timestamp:" << timestamp << "\n";
+    
     Timer timer;
     timer.Start();
     long now = Clock::Timestamp();
